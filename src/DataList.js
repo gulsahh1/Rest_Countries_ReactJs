@@ -72,7 +72,7 @@ function DataList() {
                     // filter={countries.length > 0 ? filterFactory() : false}
                 />
             ) : (
-                <div>Yükleniyor</div>
+                <div>Loading...</div>
             )}
         </div>
     );
